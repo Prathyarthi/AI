@@ -9,16 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@prisma/client": "^5.14.0",
     "next": "14.2.3",
+=======
+    "next": "14.2.3",
+    "next-auth": "^4.24.7",
+>>>>>>> a84eeb4 (Add next-auth package)
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "prisma": "^5.14.0",
+=======
+    "@types/node": "20.13.0",
+    "@types/react": "18.3.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+>>>>>>> a84eeb4 (Add next-auth package)
     "tailwindcss": "^3.4.1"
   }
 }
