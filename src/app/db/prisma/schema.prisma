@@ -19,7 +19,7 @@ model User {
   email        String?
   password     String  @unique
   subscription String
-  role         String
+  role         Role    @default(USER)
 }
 
 model Course {
@@ -31,4 +31,9 @@ model Course {
   thumbnail        Json
   numberOfLectures Int
   createdBy        String
+}
+
+enum Role {
+  ADMIN
+  USER
 }
